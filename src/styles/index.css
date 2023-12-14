@@ -1,0 +1,30 @@
+header {
+    background-image: url("../../public/images/tech-background.gif");
+    background-size: cover;
+    height: 450px;
+}
+body{
+    background-color: black;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    height: 500px;
+    padding: 10px;
+    margin-top: -150px;
+}
+.box{
+    background-color: white;
+    box-shadow: 3px 3px 3px blue;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+a:hover{
+      cursor: grab;
+      list-style: none;
+}
